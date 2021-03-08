@@ -1,7 +1,7 @@
 from turtle import Turtle
-DIRECTION = [20,30,40,45,55,65,70,80]
 
 class Ball(Turtle):
+    
     def __init__(self):
         super().__init__()
         self.create_ball()
