@@ -18,9 +18,8 @@ line.goto(0, 300)
 line.setheading(270)
 line.pensize(3)
 line.hideturtle()
-# line.speed(0)
+
 while line.ycor() > -300:
-    # screen.update()
     line.pendown()
     line.forward(20)
     line.penup()
